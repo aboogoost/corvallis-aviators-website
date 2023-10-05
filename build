@@ -1,5 +1,6 @@
 rm -rd public
 mkdir public
 cp src/* public
-cp src/js public/js
+cp -r src/js public/js
+cp -r src/img public/img
 sass src/scss:public/scss

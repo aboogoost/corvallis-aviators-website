@@ -1,9 +1,19 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$theme-colors: (
+  "primary": #FF0000,
+);
+
 nav {
-  border-bottom: 0.5em solid #ca0000;
+  border-bottom: .5em solid #ca0000;
 }
 
 nav img {
   margin-left: 2em;
+}
+
+button {
+  color: green;
 }
 
 .marquee {
@@ -37,4 +47,11 @@ nav img {
   margin: auto;
 }
 
-/*# sourceMappingURL=style.css.map */
+#header-spacer {
+  height: 15vw;
+  max-height: 80px;
+}
+
+.content {
+  max-width: 700px;
+}
