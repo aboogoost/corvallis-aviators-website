@@ -1,2 +1,2 @@
-rm -rd public
-mkdir public
+rm -rd docs
+mkdir docs

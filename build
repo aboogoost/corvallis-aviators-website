@@ -1,4 +1,4 @@
-cp src/* public
-cp -r src/js public/js
-cp -r src/img public/img
-sass src/scss:public/scss
+cp src/* docs
+cp -r src/js docs/js
+cp -r src/img docs/img
+sass src/scss:docs/css
