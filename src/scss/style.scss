@@ -1,8 +1,6 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
+$primary: #2746a7;
 
-$theme-colors: (
-  "primary": #FF0000,
-);
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 nav {
   border-bottom: .5em solid #ca0000;
