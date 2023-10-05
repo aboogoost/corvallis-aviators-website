@@ -1,0 +1,5 @@
+rm -rd public
+mkdir public
+cp src/* public
+cp src/js public/js
+sass src/scss:public/scss

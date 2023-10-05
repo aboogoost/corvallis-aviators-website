@@ -1,0 +1,38 @@
+nav {
+  border-bottom: .5em solid #ca0000;
+}
+
+nav img {
+  margin-left: 2em;
+}
+
+.marquee {
+  height: 5em;
+}
+
+.header {
+  position: relative;
+  height: 70vw;
+  max-height: 400px;
+  width: 100%;
+}
+
+#header-img {
+  height: 70vw;
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 60%;
+}
+
+#header-logo {
+  height: 70vw;
+  max-width: 600px;
+  max-height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -15%;
+  margin: auto;
+}
